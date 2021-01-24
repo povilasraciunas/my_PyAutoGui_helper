@@ -4,7 +4,7 @@ import pyautogui
 
 start_button = ('start_button.png')
 
-# find_img_n_click - finds image from file on screen, clicks center
+# find_img_n_click - finds image from file on screen, clicks center of the image.
 def find_img_n_click(image):
     location = pyautogui.locateOnScreen(image)
     print(location)

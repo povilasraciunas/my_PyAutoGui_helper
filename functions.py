@@ -24,8 +24,7 @@ screen_stamp()
 
 ## open_chrome(url) ## - opens new with window of chrome with provided URL
 def open_chrome(url):
-  
-    os.system(f'"start chrome --new-window --incognito {url}"')
+  os.system(f'"start chrome --new-window {url}"')
 
 # Example url
 url = "http://www.google.com"
